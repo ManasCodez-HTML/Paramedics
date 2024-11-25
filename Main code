@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specialist Paramedic Info</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, teal 25%, cyan 25%, cyan 50%, yellow 50%, yellow 75%, green 75%);
+            background-size: 150% 150%;
+            color: #fff;
+            animation: gradient 15s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        header {
+            text-align: center;
+            background: black;
+            padding: 1rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+            color: yellow;
+        }
+
+        .content {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .box {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            opacity: 0; /* Hidden by default */
+            transform: translateY(40px); /* Slightly further out of position */
+            transition: opacity 1.5s ease-out, transform 1.5s ease-out; /* Longer delay */
+            margin-bottom: 1.5rem;
+        }
+
+        .box.visible {
+            opacity: 1;
+            transform: translateY(0); /* Move into place */
+        }
+
+        .box h2 {
+            text-decoration: underline;
+            margin-bottom: 1rem;
+            color: cyan;
+        }
+
+        .box p {
+            margin: 1rem 0;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Apply Now Banner */
+        .apply-banner {
+            background-color: #004d40; /* Dark teal */
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            font-size: 1.5rem;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10;
+        }
+
+        .apply-banner a {
+            color: yellow;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .apply-banner a:hover {
+            color: cyan;
+            text-decoration: underline;
+        }
+
+        /* Find More Jobs Link */
+        .more-jobs {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 1.2rem;
+            background-color: black;
+            padding: 1rem;
+            color: yellow;
+        }
+
+        .more-jobs a {
+            color: yellow;
+            text-decoration: none;
+        }
+
+        .more-jobs a:hover {
+            color: cyan;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Specialist Paramedics</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- What is a Specialist Paramedic Section -->
+        <div class="box">
+            <h2>What is a Specialist Paramedic?</h2>
+            <p>Specialist paramedics are highly trained professionals who provide advanced care in emergency and non-emergency settings. They are equipped to handle critical situations with expertise and compassion. The role includes responding to medical emergencies, providing advanced life support, and being a key part of an integrated healthcare team.</p>
+            <p>They also work in collaborative environments with doctors, nurses, and other healthcare professionals to ensure patients receive the best care possible, whether at the scene of an emergency or during patient transport.</p>
+        </div>
+
+        <!-- Why Join Section -->
+        <div class="box">
+            <h2>Why Join This?</h2>
+            <p>By becoming a specialist paramedic, you’ll gain access to cutting-edge training in medicine and biology, competitive benefits, and the chance to make a real difference in people's lives every day. This special role offers opportunities for career progression, specialized training, and the satisfaction of contributing to your community's well-being.</p>
+            <p>Additionally, you'll develop critical skills in decision-making, patient assessment, and leadership, making you an invaluable asset in the field of healthcare.</p>
+        </div>
+
+        <!-- What is Needed Section -->
+        <div class="box">
+            <h2>What is Needed?</h2>
+            <p>
+                <strong>What we expect from GCSE's:</strong><br>
+				- You'll need a minimum of five 9-4 or A*-C in grade GCSEs including maths, english and science. if you go to do further study-such as A levels or an equivelant level 3 qualification.<br><br>
+                <strong>What is after A level?</strong><br>
+                - Before you can become a specialist paramedic, you need to train and work as a paramedic. After gaining some experiance working with the NHS, you will have to get additional education and training to become a specialist paramedic<br>       
+                <strong>Skills & Experience:</strong><br>
+                - Ability to handle high-pressure situations.<br>
+                - Experience in providing critical care and help.<br>
+                - Exellent communication, problem-solving and teamwork skills.
+            </p>
+        </div>
+
+        <!-- Qualifications Section -->
+        <div class="box">
+            <h2>Could This Be You?</h2>
+            <p>If you’re calm under pressure, reliable, and enjoy meeting people, this role might be perfect for you. Paramedics thrive in dynamic environments and embrace opportunities to learn and grow while making a tangible impact on individuals and communities.</p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="box">
+            <h2>What Specialist Paramedics Look Like in Action</h2>
+            <img src="https://media.istockphoto.com/id/2158189450/photo/paramedics-team-with-an-ambulance.jpg?s=612x612&w=0&k=20&c=kq8ev5uZbWBZ3s3ZrkHJUHTNfaMEv7LxVgLrf2XgB24=" alt="Specialist Paramedic Stock Image">
+        </div>
+    </div>
+
+    <!-- Find More Jobs Link -->
+    <div class="more-jobs">
+        <p>Looking for more opportunities? <a href="https://www.nhs.uk/careers" target="_blank">Find more jobs at the NHS</a></p>
+    </div>
+
+    <!-- Apply Now Banner -->
+    <div class="apply-banner">
+        <p><a href="https://www.healthcareers.nhs.uk/explore-roles/ambulance-service-team/roles-ambulance-service/experienced-paramedic" target="_blank">Apply Now</a></p>
+    </div>
+
+    <script>
+        // Intersection Observer for delayed scroll animations
+        const boxes = document.querySelectorAll('.box');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => { // Delayed effect
+                        entry.target.classList.add('visible');
+                    }, 300);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        boxes.forEach(box => observer.observe(box));
+    </script>
+</body>
+</html>
